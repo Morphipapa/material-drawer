@@ -124,6 +124,7 @@ public class DrawerAdapter extends ArrayAdapter<DrawerItem> {
                 } else {
                     viewHolder.getImageView().setPadding(0, 0, imagePaddingEnd, 0);
                 }
+                viewHolder.getImageView().setScaleType(ScaleType.CENTER_INSIDE);
 
             }
             else{
